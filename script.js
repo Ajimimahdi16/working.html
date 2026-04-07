@@ -49,5 +49,5 @@ const paragrafo = document.querySelector(".contatore");
 bottone.addEventListener("click",() => {
    
     conteggio++;
-    paragrafo.innerText = conteggio; //e una proprieta che permette di moficare il testa nel html
+    paragrafo.innerText = conteggio; // una proprieta che permette di moficare il testa nel html innerText
 });
